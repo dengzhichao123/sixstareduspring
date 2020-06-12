@@ -1,14 +1,8 @@
-package com.sixstaredu.spring;
-
-import com.sixstaredu.spring.ac.dayone.test.iocandbean.one.Acbean;
-import com.sixstaredu.spring.ac.dayone.test.iocandbean.one.Xacbean;
+import com.sixstar.one.Acbean;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
-import java.util.HashMap;
 
 /**
  * @ClassName:
