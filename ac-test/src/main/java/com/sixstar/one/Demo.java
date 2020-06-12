@@ -1,3 +1,5 @@
+package com.sixstar.one;
+
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

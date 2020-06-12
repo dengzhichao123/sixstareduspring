@@ -1,4 +1,4 @@
-import org.springframework.beans.factory.annotation.Value;
+package com.sixstar.one;
 
 /**
  * @ClassName: Xacbean
@@ -40,7 +40,7 @@ public class Xacbean {
 
 	public Xacbean(){}
 
-	public Xacbean(String name,Integer age,String sex){
+	public Xacbean(String name, Integer age, String sex){
 		this.name = name;
 		this.age = age;
 		this.sex = sex;
