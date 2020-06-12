@@ -1,2 +1,0 @@
-# sixstareduspring
-sixstareduspring
