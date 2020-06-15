@@ -1,5 +1,6 @@
-package com.sixstaredu.test.one.ioc.one;
+package com.sixstaredu.test.two.ioc;
 
+import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Lazy;
@@ -30,8 +31,9 @@ public class Acbean {
 	//	 * 懒加载：容器启动不创建对象。第一次使用(获取)Bean创建对象，并初始化；
 	@Bean
 	@Lazy(value = false)
+	@Scope(value = ConfigurableBeanFactory.SCOPE_PROTOTYPE)
 	public Xacbean xacbean(){
-		System.out.println("My Create XmlOne------");
+		System.out.println("Ac Create xacbean------");
 		return new Xacbean("ac", 18, "man");
 	}
 }
